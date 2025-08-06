@@ -61,7 +61,7 @@ POST /register
   "contrasenia": "clave123"
 }
 
-```Crear un tópico
+CREAR UN TÓPICO
 POST /topicos
 {
   "titulo": "¿Recomiendan algún curso de Java?",
@@ -70,7 +70,7 @@ POST /topicos
   "autorId": 2
 }
 
-```Responder a un tópico
+RESPONDER A UN TÓPICO
 POST /respuestas
 {
   "mensaje": "Puedes empezar con la documentación oficial de Spring.",
@@ -78,5 +78,4 @@ POST /respuestas
   "usuarioId": 3
 }
 
-
-🛠️ Este proyecto sigue en desarrollo. Hay errores pendientes por corregir, pero estoy usando esta experiencia como parte de mi crecimiento como desarrolladora backend. 😄
+🛠 Este proyecto sigue en desarrollo. Hay errores pendientes por corregir, pero estoy usando esta experiencia como parte de mi crecimiento como desarrolladora backend. 😄
