@@ -1,0 +1,3 @@
+ALTER TABLE topicos
+    MODIFY titulo VARCHAR(255) COLLATE utf8mb4_0900_ai_ci NOT NULL,
+    MODIFY mensaje TEXT COLLATE utf8mb4_0900_ai_ci NOT NULL;
